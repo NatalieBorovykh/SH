@@ -11,7 +11,7 @@
   "paths" : {
     "/inventory" : {
       "get" : {
-        "summary" : "searches inventory",
+        "summary" : "searches inventory new",
         "operationId" : "searchInventory",
         "parameters" : [ ],
         "responses" : {
