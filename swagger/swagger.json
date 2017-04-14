@@ -1,0 +1,32 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "description" : "This is a simple API",
+    "version" : "1.0.0",
+    "title" : "Simple Inventory API"
+  },
+  "host" : "virtserver.swaggerhub.com",
+  "basePath" : "/SmartBear-CC/BeezUP/1.0.0",
+  "schemes" : [ "https" ],
+  "paths" : {
+    "/inventory" : {
+      "get" : {
+        "summary" : "searches inventory",
+        "operationId" : "searchInventory",
+        "parameters" : [ ],
+        "responses" : {
+          "200" : {
+            "description" : "search results matching criteria"
+          },
+          "default" : {
+            "description" : "General Error",
+            "schema" : {
+              "$ref" : "#/definitions/ErrorModel"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions" : { }
+}
