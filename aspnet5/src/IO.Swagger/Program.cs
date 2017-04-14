@@ -25,7 +25,7 @@ namespace IO.Swagger
                 .UseIISIntegration()
                 .UseStartup<Startup>()
                 .Build();
-            //here goes some custom logic
+
             host.Run();
         }
     }

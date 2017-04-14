@@ -54,5 +54,18 @@ namespace IO.Swagger.Controllers
         { 
             throw new NotImplementedException();
         }
+
+
+        /// <summary>
+        /// get smth
+        /// </summary>
+        
+        [HttpGet]
+        [Route("/SmartBear-CC/BeezUP/1.0.0/smth")]
+        [SwaggerOperation("SmthGet")]
+        public virtual void SmthGet()
+        { 
+            throw new NotImplementedException();
+        }
     }
 }
