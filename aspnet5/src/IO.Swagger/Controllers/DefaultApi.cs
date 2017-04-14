@@ -42,6 +42,20 @@ namespace IO.Swagger.Controllers
     { 
 
         /// <summary>
+        /// new
+        /// </summary>
+        /// <remarks>new</remarks>
+        /// <response code="200">OK</response>
+        [HttpPost]
+        [Route("/SmartBear-CC/BeezUP/1.0.0/inventory")]
+        [SwaggerOperation("InventoryPost")]
+        public virtual void InventoryPost()
+        { 
+            throw new NotImplementedException();
+        }
+
+
+        /// <summary>
         /// searches inventory
         /// </summary>
         
@@ -51,19 +65,6 @@ namespace IO.Swagger.Controllers
         [Route("/SmartBear-CC/BeezUP/1.0.0/inventory")]
         [SwaggerOperation("SearchInventory")]
         public virtual void SearchInventory()
-        { 
-            throw new NotImplementedException();
-        }
-
-
-        /// <summary>
-        /// get smth
-        /// </summary>
-        
-        [HttpGet]
-        [Route("/SmartBear-CC/BeezUP/1.0.0/smth")]
-        [SwaggerOperation("SmthGet")]
-        public virtual void SmthGet()
         { 
             throw new NotImplementedException();
         }
